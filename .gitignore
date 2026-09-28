@@ -1,0 +1,31 @@
+# === İşletim sistemi / editör çöp dosyaları ===
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+ 
+# === Gizli bilgiler — ASLA GitHub'a gitmemeli ===
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+supabase-service-role-key.txt
+ 
+# === Node / build araçları (ileride Supabase CLI, Wrangler vb. kullanırsak) ===
+node_modules/
+dist/
+build/
+.wrangler/
+ 
+# === Kaynak/ham tasarım dosyaları (siteye gömülü, ayrı yayınlanmasına gerek yok) ===
+kaynak-dosyalar/
+*.psd
+*.ai
+*.zip
+ 
+# === Yedek / geçici dosyalar ===
+*.bak
+*.tmp
+*~
